@@ -1,11 +1,13 @@
 .outter-box {
     margin: 0 auto;
-    /* background-color: darkkhaki; */
     width: 700px;
     height: 400px;
     border-radius: 50px;
     position: relative;
     top: 70px;
+    transition: background-color 2s ease;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+
 }
 .sm-buttons {
     background-color: burlywood;
@@ -36,7 +38,7 @@
     height: 70px;
     border-radius: 20px;
     background-color: burlywood;
-    font-family: monospace;
+    font-family: fantasy;
     font-size: 20px;
     outline: none;
 }
@@ -60,9 +62,14 @@
     bottom: 100px;
     right: 50px;
 }
-
+.wrapper {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: background-color 10s ease;
+}
 html body {
-    background-color: beige;
+    /* background-color: beige; */
 }
 .footer {
     text-align: center;
