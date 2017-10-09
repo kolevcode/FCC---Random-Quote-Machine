@@ -6,14 +6,14 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-    <div class="wrapper">
-        <div class="outter-box" id="changeColor" style="background-color: changeColor()">
+    <div class="wrapper" id="pageColour">
+        <div class="outter-box" id="changeColour">
             <div class="sm-buttons">
-                        <a href="#" class="fa fa-facebook" style="font-size: 48px"></a>
-                        <a href="#" class="fa fa-twitter" style="font-size: 48px"></a>
+                        <a href="#" class="fa fa-facebook" id="facebook" style="font-size: 48px"></a>
+                        <a href="#" class="fa fa-twitter" id="twitter" style="font-size: 48px" onclick="tweetQuote()"></a>
             </div>
             <div class="boombox">
-                <button class="button" onclick="getQuote()">New Quote</button>
+                <button class="button" onclick="getQuote(); randomBoxColour() ">New Quote</button>
             </div>
             <script src="main.js"></script>
 
